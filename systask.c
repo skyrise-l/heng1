@@ -57,11 +57,6 @@ PUBLIC void task_sys()
 				  sizeof(t));
 			send_recv(SEND, src, &msg);
 			break;
-		case RUN:
-			TestFlag = 1;
-			msg.RETVAL = TestFlag;
-			send_recv(SEND, src, &msg);
-			break;
 		default:
 			panic("unknown msg type");
 			break;

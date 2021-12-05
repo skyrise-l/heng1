@@ -107,4 +107,3 @@ PUBLIC Task_queue task_queue1;
 PUBLIC Task_queue task_queue2;
 PUBLIC Task_queue task_queue3;
 PUBLIC int LastPriority;
-PUBLIC int TestFlag;

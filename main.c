@@ -35,7 +35,7 @@ PUBLIC int schedule_init()
 	task_queue2.give_ticks = 2;
 	task_queue3.give_ticks = 4;
 	LastPriority = 1;
-	TestFlag = 0;
+
 	for (i = 0; i < NR_TASKS + NR_NATIVE_PROCS; i++)
 	{
 		if (i < NR_TASKS + 1)
